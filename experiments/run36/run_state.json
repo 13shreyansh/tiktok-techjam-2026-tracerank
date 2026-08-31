@@ -1,0 +1,9 @@
+{
+  "benchmark": "KuaiRand-27K full-training deterministic development sample",
+  "iterations": 1,
+  "public_test_locked": true,
+  "search_closed": true,
+  "closed_reason": "Early shadow gate failed: validation -0.006006675, forward -0.006248074, and every fixed robustness slice regressed versus Run 34.",
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-30T07:02:51+08:00"
+}
