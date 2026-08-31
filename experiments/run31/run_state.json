@@ -1,0 +1,10 @@
+{
+  "benchmark": "KuaiRand-27K expanded-training deterministic development sample",
+  "closed_reason": "The single predeclared 0.0005 learning-rate candidate regressed validation, forward, and protected slices on the first shadow; the family failure stop closed Run 31 without a sweep.",
+  "converged_at_iteration": 1,
+  "iterations": 1,
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-30T00:59:54+08:00"
+}
