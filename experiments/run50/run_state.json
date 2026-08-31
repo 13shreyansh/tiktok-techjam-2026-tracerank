@@ -1,0 +1,14 @@
+{
+  "benchmark": "KuaiRand-27K full-training deterministic development sample",
+  "early_gate_passed": true,
+  "iterations": 11,
+  "late_gate_passed": true,
+  "middle_gate_passed": true,
+  "official_gate_passed": false,
+  "promoted": false,
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": true,
+  "started_at": "2026-08-31T01:50:00+08:00",
+  "stopped_reason": "official seed-2029 aggregate and slice stability gates failed"
+}
