@@ -1,0 +1,9 @@
+{
+  "benchmark": "KuaiRand-27K full-training deterministic development sample",
+  "iterations": 1,
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-31T08:29:00+08:00",
+  "stopped_reason": "existing router rejected the frozen two-input exact-fallback construction before evaluation"
+}
