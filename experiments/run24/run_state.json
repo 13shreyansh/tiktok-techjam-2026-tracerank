@@ -1,0 +1,10 @@
+{
+  "benchmark": "KuaiRand-27K deterministic development sample",
+  "closed_reason": "Three unchanged causal user-item official seeds all improved their paired parents and converged within the fixed 0.002 epsilon; Run 24 is closed with seed 2029 protected.",
+  "converged_at_iteration": 26,
+  "iterations": 26,
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": true,
+  "started_at": "2026-08-29T21:29:26+08:00"
+}
