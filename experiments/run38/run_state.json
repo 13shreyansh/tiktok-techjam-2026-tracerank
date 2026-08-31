@@ -1,0 +1,9 @@
+{
+  "benchmark": "KuaiRand-27K full-training deterministic development sample",
+  "closed_reason": "Six-hour wall-clock guard blocked the predeclared third official seed before execution; two official seeds passed but Run 38 was not promoted.",
+  "iterations": 5,
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": true,
+  "started_at": "2026-08-30T07:17:18+08:00"
+}
