@@ -1,0 +1,10 @@
+{
+  "benchmark": "KuaiRand-27K deterministic development sample",
+  "iterations": 5,
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-29T23:49:40.323426+08:00",
+  "stopped_at": "2026-08-29T23:54:00+08:00",
+  "stop_reason": "Only the early rank blend passed; middle and late failed the fixed validation/forward/slice gates."
+}
