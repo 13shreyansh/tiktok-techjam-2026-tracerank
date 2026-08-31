@@ -1,0 +1,9 @@
+{
+  "completed_at": "2026-08-29T16:23:00+08:00",
+  "decision": "reject",
+  "iterations": 1,
+  "last_review_iteration": 1,
+  "public_test_locked": true,
+  "reason": "Caption content missed the validation gate and regressed every activity and date slice despite improving the forward window.",
+  "started_at": "2026-08-29T16:18:00+08:00"
+}
