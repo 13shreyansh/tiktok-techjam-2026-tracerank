@@ -1,0 +1,9 @@
+{
+  "benchmark": "KuaiRand-27K full-training deterministic development sample",
+  "closed_reason": "Early shadow failed: validation -0.000239002, forward -0.000212363, and medium activity -0.001200064 versus the repeat-affinity parent.",
+  "iterations": 1,
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-30T14:27:13+08:00"
+}
