@@ -1,0 +1,10 @@
+{
+  "benchmark": "KuaiRand-27K full-training deterministic development sample",
+  "closed_at": "2026-08-31T14:54:10+08:00",
+  "decision": "rejected_first_trained_epoch_below_gate",
+  "iterations": 1,
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-31T14:49:03+08:00"
+}
