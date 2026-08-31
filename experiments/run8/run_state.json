@@ -1,0 +1,8 @@
+{
+  "iterations": 13,
+  "last_review_iteration": 13,
+  "public_test_locked": true,
+  "started_at": "2026-08-29T15:10:00+08:00",
+  "stop_reason": "The predeclared three-seed official nine-member ensemble scored 0.605206580, below the protected 0.605400885 fallback; no weight search is allowed.",
+  "stopped_at": "2026-08-29T15:38:00+08:00"
+}
