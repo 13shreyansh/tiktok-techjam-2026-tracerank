@@ -1,0 +1,10 @@
+{
+  "benchmark": "KuaiRand-27K deterministic development sample",
+  "iterations": 1,
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-29T23:47:00+08:00",
+  "stopped_at": "2026-08-29T23:49:00+08:00",
+  "stop_reason": "Rank 16 improved the early shadow by only 0.000217721, below the fixed 0.001 materiality gate."
+}
