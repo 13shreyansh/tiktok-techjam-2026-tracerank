@@ -1,0 +1,9 @@
+{
+  "benchmark": "KuaiRand-1K",
+  "iterations": 1,
+  "public_test_locked": true,
+  "search_closed": true,
+  "closed_reason": "The fixed within-user BPR candidate regressed paired validation and the medium-activity robustness slice despite a small forward gain. The family was closed without tuning.",
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-29T20:35:00+08:00"
+}
