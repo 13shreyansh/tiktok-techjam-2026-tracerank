@@ -1,0 +1,15 @@
+{
+  "benchmark": "KuaiRand-1K",
+  "converged_at_iteration": 16,
+  "convergence_note": "Attempts 14-16 were three consecutive non-improvements greater than epsilon=0.002 over the iteration-13 best. Attempts 17-18 were executed before the literal audit caught the stop and are excluded post-convergence exploration.",
+  "eligible_iterations": 16,
+  "iterations": 18,
+  "post_convergence_excluded_iterations": [
+    17,
+    18
+  ],
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": true,
+  "started_at": "2026-08-29T17:22:00+08:00"
+}
