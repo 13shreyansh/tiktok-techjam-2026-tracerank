@@ -1,0 +1,10 @@
+{
+  "benchmark": "KuaiRand-27K full-training deterministic development sample",
+  "iterations": 1,
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-31T12:14:00+08:00",
+  "stopped_at": "2026-08-31T12:15:00+08:00",
+  "stop_reason": "Frozen video-profile consensus decisively failed the first validation, forward, component, and all-slice gates."
+}
