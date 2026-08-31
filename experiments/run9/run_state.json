@@ -1,0 +1,9 @@
+{
+  "completed_at": "2026-08-29T15:44:00+08:00",
+  "decision": "reject",
+  "iterations": 1,
+  "last_review_iteration": 1,
+  "public_test_locked": true,
+  "reason": "Validation and every robustness slice regressed despite a forward-window gain; the predeclared gate failed.",
+  "started_at": "2026-08-29T15:40:00+08:00"
+}
