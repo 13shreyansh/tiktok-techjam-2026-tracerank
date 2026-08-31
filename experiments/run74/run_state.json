@@ -1,0 +1,10 @@
+{
+  "benchmark": "KuaiRand-27K full-training deterministic development sample",
+  "iterations": 1,
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-31T11:57:00+08:00",
+  "stopped_at": "2026-08-31T12:09:00+08:00",
+  "stop_reason": "First chronological-order gate failed validation, forward, component, and every fixed-slice guard."
+}
