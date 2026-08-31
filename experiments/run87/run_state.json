@@ -1,0 +1,16 @@
+{
+  "benchmark": "KuaiRand-Pure official validation",
+  "convergence": {
+    "epsilon": 5e-05,
+    "minimum_iteration_floor": 2,
+    "window": 3
+  },
+  "family": "chronological-crossfit-lambdamart-residual",
+  "iterations": 1,
+  "label_boundary_required": true,
+  "public_test_locked": true,
+  "closed_at": "2026-08-31T18:18:00+08:00",
+  "decision": "closed_independent_target_and_forward_transfer_gate_failed",
+  "search_closed": true,
+  "started_at": "2026-08-31T18:09:00+08:00"
+}
