@@ -1,0 +1,8 @@
+{
+  "iterations": 2,
+  "last_review_iteration": 2,
+  "public_test_locked": true,
+  "started_at": "2026-08-29T14:57:00+08:00",
+  "stop_reason": "Both predeclared action-aware causal history variants failed the validation, forward, and robustness promotion gates.",
+  "stopped_at": "2026-08-29T15:08:00+08:00"
+}
