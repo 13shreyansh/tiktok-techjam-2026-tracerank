@@ -1,0 +1,9 @@
+{
+  "completed_at": "2026-08-29T16:13:00+08:00",
+  "decision": "reject",
+  "iterations": 1,
+  "last_review_iteration": 1,
+  "public_test_locked": true,
+  "reason": "Category history missed the validation gate and shifted gains toward low-activity and forward slices while regressing medium/high activity.",
+  "started_at": "2026-08-29T16:09:00+08:00"
+}
