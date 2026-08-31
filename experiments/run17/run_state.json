@@ -1,0 +1,9 @@
+{
+  "benchmark": "KuaiRand-1K",
+  "iterations": 1,
+  "public_test_locked": true,
+  "search_closed": true,
+  "closed_reason": "The fixed first DeepFM candidate failed the predeclared validation, forward, and robustness gates. The architecture family was closed without micro-tuning.",
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-29T20:12:00+08:00"
+}
