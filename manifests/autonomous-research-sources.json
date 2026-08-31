@@ -1,0 +1,51 @@
+{
+  "recorded_at": "2026-08-29T11:59:00+08:00",
+  "purpose": "Pre-start preservation of unmodified autonomous-ML research references; no Track 2 adaptation or judged experiment was performed.",
+  "sources": [
+    {
+      "name": "Karpathy autoresearch",
+      "repository_url": "https://github.com/karpathy/autoresearch",
+      "commit": "228791fb499afffb54b46200aca536f79142f117",
+      "archive_url": "https://codeload.github.com/karpathy/autoresearch/tar.gz/228791fb499afffb54b46200aca536f79142f117",
+      "archive_file": "artifacts/third_party/original/karpathy-autoresearch-228791f.tar.gz",
+      "archive_sha256": "20008d6be1661850317d3825403c4e58922467e4117577836dbb6c6659b69b09",
+      "extracted_to": "vendor/karpathy-autoresearch",
+      "license": "MIT, as stated in the pinned README; this snapshot has no standalone LICENSE file",
+      "status": "complete archive downloaded, safety-checked, checksummed, and extracted unchanged"
+    },
+    {
+      "name": "AIDE",
+      "repository_url": "https://github.com/WecoAI/aideml",
+      "commit": "085899eeb90804314d184fb65b9de0d17c9ce6f0",
+      "archive_url": "https://codeload.github.com/WecoAI/aideml/tar.gz/085899eeb90804314d184fb65b9de0d17c9ce6f0",
+      "archive_file": "artifacts/third_party/original/wecoai-aideml-085899e.tar.gz",
+      "archive_sha256": "94e534bebefbcbb7263ddab21db6fc3fc08fa1416405b418eac8b781677ed371",
+      "extracted_to": "vendor/wecoai-aideml",
+      "license": "MIT; see vendor/wecoai-aideml/LICENSE",
+      "status": "complete archive downloaded, safety-checked, checksummed, and extracted unchanged"
+    },
+    {
+      "name": "FML-Bench",
+      "repository_url": "https://github.com/qrzou/FML-bench",
+      "commit": "d336651ebea50c622c256f02ded82b68b4451fdc",
+      "archive_url": "https://codeload.github.com/qrzou/FML-bench/tar.gz/d336651ebea50c622c256f02ded82b68b4451fdc",
+      "archive_file": "artifacts/third_party/original/qrzou-fml-bench-d336651.tar.gz",
+      "archive_sha256": "4f8ed5bb0c46367bc161338dad940f86bfc4a47f5f66b9492588f84e37920cac",
+      "extracted_to": "vendor/qrzou-fml-bench",
+      "license": "Apache-2.0; see vendor/qrzou-fml-bench/LICENSE",
+      "status": "complete archive downloaded, safety-checked, checksummed, and extracted unchanged"
+    },
+    {
+      "name": "OpenAI MLE-bench reference",
+      "repository_url": "https://github.com/openai/mle-bench",
+      "commit": "507f92e1138bb6e40dac5c6ee7a6758e6424bf97",
+      "readme_url": "https://raw.githubusercontent.com/openai/mle-bench/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/README.md",
+      "license_url": "https://raw.githubusercontent.com/openai/mle-bench/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/LICENSE",
+      "readme_sha256": "586bbc19cb2a3e11be61021866ef6436cf4b4d935bb1db088984b567b76595bb",
+      "license_sha256": "8a44e3d54b33babc0c79b9c86cf9069e4c132fcd9ddf6f7e3b0f552ccc52c198",
+      "extracted_to": "vendor/openai-mle-bench-reference",
+      "license": "MIT for repository code; see vendor/openai-mle-bench-reference/LICENSE",
+      "status": "pinned README and LICENSE verified; full codeload archive was truncated and quarantined, so no full-snapshot claim is made"
+    }
+  ]
+}

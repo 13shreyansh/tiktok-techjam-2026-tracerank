@@ -1,0 +1,97 @@
+{
+  "benchmark": "KuaiRand-1K",
+  "purpose": "Stable byte-level input identity for the selected content sparse FM",
+  "rows": 7580964,
+  "candidate_code": {
+    "commit": "c85dea538dd1b71bacb644a86f83949498a07610",
+    "cache_builder_sha256": "f36fa62ad3f075d5720938b10877d604a3fbe2248b074d6e6e4c419998e66fb8",
+    "ranker_sha256": "f075b95bd99cd91cae6a77e670a8fac3dd5ba2489ada0a079b00993b7e59e620"
+  },
+  "source_files": [
+    {
+      "path": "data/KuaiRand-1K.tar.gz",
+      "bytes": 1135436720,
+      "sha256": "dfaafbb5fd16e9e6d2f9a6adaa4ea25df20a14bc26a90961c136e26c00a7bb2c"
+    },
+    {
+      "path": "data/KuaiRand-1K/data/video_features_basic_1k.csv",
+      "bytes": 376887905,
+      "sha256": "18cb8b9133635a5e53d4e33b1644137b8673b615cc1aaa500b6d3d09695efae3"
+    },
+    {
+      "path": "data/KuaiRand-1K/data/log_standard_4_08_to_4_21_1k.csv",
+      "bytes": 373670312,
+      "sha256": "355355897a84baa4df26b78b0271bb9a27b127a39cd7aa4a898cf86db0bc1810"
+    },
+    {
+      "path": "data/KuaiRand-1K/data/log_standard_4_22_to_5_08_1k.csv",
+      "bytes": 492303531,
+      "sha256": "548daf771e54e2b73086cc8e7c6f56787d44421f5026c2100421810e47ae9dd4"
+    }
+  ],
+  "cache_directory": "outputs/kuairand-1k-content-cache-rebuild",
+  "arrays": [
+    {
+      "path": "user.npy",
+      "bytes": 30323984,
+      "sha256": "2c2e97341a3b7836f9b087656e7aa73542f20b75e94912f0eeeb30cc49559262"
+    },
+    {
+      "path": "video.npy",
+      "bytes": 30323984,
+      "sha256": "c2e6ea5ccb6657ddf2c1b72e96c827005b3aed61bc89d39e2b72c8cf4c960f70"
+    },
+    {
+      "path": "author.npy",
+      "bytes": 30323984,
+      "sha256": "baed8d8a81bb88d804f763aa1f6b96e7b2a68257d7060ac82c4b8b52ad7301a8"
+    },
+    {
+      "path": "tag.npy",
+      "bytes": 30323984,
+      "sha256": "7730782d14175bc6691f9491a45186db63a0723aa477b108d8145590a6944f54"
+    },
+    {
+      "path": "upload_type.npy",
+      "bytes": 15162056,
+      "sha256": "83216fa26b3e4a30d434f096f33f9e009ae4c150dc59d79017cc6a50287bcfc4"
+    },
+    {
+      "path": "video_type.npy",
+      "bytes": 15162056,
+      "sha256": "5b3948cfbb97c53cfb4b3e228671d253a45282fc51caa5b9f708564112b7b27d"
+    },
+    {
+      "path": "tab.npy",
+      "bytes": 15162056,
+      "sha256": "c0c394b5fe0452c3474f2aea90491281750492431afc5db5deac0f8dd6a454f7"
+    },
+    {
+      "path": "duration.npy",
+      "bytes": 30323984,
+      "sha256": "9f18805a3a57992924a6251e92da667f69e97aa7e07a2d6c31eaf12fc1a788c8"
+    },
+    {
+      "path": "date.npy",
+      "bytes": 30323984,
+      "sha256": "b62cba4986096819861a7aaefc4a54e5d01be86754bdec6b21509a958b0326e8"
+    },
+    {
+      "path": "label.npy",
+      "bytes": 7581092,
+      "sha256": "8940a4ed4f576f3d6b4ce6c168d77741acb18dc1d420400a47f7b3d9ade3d9a9"
+    }
+  ],
+  "historical_manifest": {
+    "sha256_at_candidate_training": "ed37437c8a84983b88e30af71b2cbdc12a7d58780cd3c78eeeecc557b5784354",
+    "stable_identity_warning": "The manifest includes created_at, elapsed_seconds, max_rss_bytes, pid, and an absolute source path, so its complete hash is intentionally retained only as historical evidence and is not reproducible."
+  },
+  "reconstruction": {
+    "observed_at": "2026-08-29T18:55:00+08:00",
+    "command": ".venv/bin/python artifacts/run16-candidate-code-c85/scripts/prepare_kuairand_1k_cache.py --data-dir data/KuaiRand-1K/data --cache-dir outputs/kuairand-1k-content-cache-rebuild",
+    "candidate_commit_checked_out": "c85dea538dd1b71bacb644a86f83949498a07610",
+    "all_ten_arrays_byte_equal_to_current_extended_cache": true,
+    "rebuild_elapsed_seconds": 68.05913186073303,
+    "rebuild_max_rss_bytes": 420118528
+  }
+}

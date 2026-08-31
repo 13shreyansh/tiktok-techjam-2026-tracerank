@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-08-31T16:36:31+08:00",
+  "commit_policy": "Large models, predictions, and candidate CSVs are ignored and not committed.",
+  "submission_status": "Local candidate only; no upload or submission performed.",
+  "validation": {
+    "published_organizer_baseline_primary": 0.6016,
+    "selected_six_causal_user_rank": {
+      "GAUC": 0.6727584132959411,
+      "nDCG@5": 0.5382840360094916,
+      "primary": 0.6055212246527164,
+      "delta_over_published_baseline": 0.0039212246527164,
+      "selection_evidence": "Run83 frozen two-of-three chronological-window gate"
+    },
+    "fallback_mixed_six_seed_user_rank": {
+      "GAUC": 0.6723790951304006,
+      "nDCG@5": 0.5384226749455467,
+      "primary": 0.6054008850379737,
+      "delta_over_published_baseline": 0.0038008850379737
+    }
+  },
+  "public_test_audit": {
+    "scope": "One-time Run-1 audit of an earlier frozen video-history-only seed-2027 model; not the protected ensemble.",
+    "used_for_later_model_selection": false,
+    "protected_candidate_test_scored": false,
+    "GAUC": 0.6647487283,
+    "nDCG@5": 0.5310955644,
+    "primary": 0.5979221463,
+    "published_organizer_baseline_primary": 0.5946
+  },
+  "model_checkpoints": [
+    {
+      "path": "outputs/models/neural-fm-video-tag-history-seed2026.pt",
+      "bytes": 3579071,
+      "sha256": "d215030d62b1fdcaf0a9cd5a82ed3767dc49ad13c871133d47bbf3f2e6864f58"
+    },
+    {
+      "path": "outputs/models/neural-fm-video-tag-history-seed2027.pt",
+      "bytes": 3579071,
+      "sha256": "2c2a0361cc0ab6051339508060f37d4ac2c76d6e0577fd525719610b2100e958"
+    },
+    {
+      "path": "outputs/models/neural-fm-video-tag-history-seed2028.pt",
+      "bytes": 3579071,
+      "sha256": "fd0eb4d0844dd92109d276626af703ce115f9846fee4d03ccfbed3ba2c8440ce"
+    },
+    {
+      "path": "outputs/models/run2-causal-seed2026.pt",
+      "bytes": 3579119,
+      "sha256": "6a1d75016078ca08abba19e96632baac85cbb1a01b2e5fa8efca73b15e916a18"
+    },
+    {
+      "path": "outputs/models/run2-causal-seed2027.pt",
+      "bytes": 3579119,
+      "sha256": "4d8a208a7c5ccc76c58cbb83b15349f1944b6225647d75a3a27478799e49c384"
+    },
+    {
+      "path": "outputs/models/run2-causal-seed2028.pt",
+      "bytes": 3579119,
+      "sha256": "4caadd79087e059c5e11fcc47a278c581ea9d01ebda6d7c392905f27809ed2c8"
+    },
+    {
+      "path": "outputs/models/run82-causal-seed2029.pt",
+      "bytes": 3579912,
+      "sha256": "dd31f120dca89a87ed199ee88293e3011744acabacdfdcf1d5495b1a197427da"
+    },
+    {
+      "path": "outputs/models/run82-causal-seed2030.pt",
+      "bytes": 3579912,
+      "sha256": "72dbf9905c66fcd0e2f69964580a1adff520b001d225dafd5436a79f554b37f3"
+    },
+    {
+      "path": "outputs/models/run82-causal-seed2031.pt",
+      "bytes": 3579912,
+      "sha256": "0c2a411fa1d876b6d4eed33597458cad790186d605fb0a71eafa0ef76b1fec1f"
+    }
+  ],
+  "member_predictions": [
+    {
+      "path": "outputs/predictions/neural-fm-video-tag-history-seed2026.npz",
+      "bytes": 1075850,
+      "sha256": "7f33e55fce770baea72bbbc9258c707d1dc57f7a24916023fb2f2591e361444b"
+    },
+    {
+      "path": "outputs/predictions/neural-fm-video-tag-history-seed2027.npz",
+      "bytes": 1076111,
+      "sha256": "9b4875a088fafa5eee93e7efb4de79c1750003ef37aa41f0bce5cc023860f817"
+    },
+    {
+      "path": "outputs/predictions/neural-fm-video-tag-history-seed2028.npz",
+      "bytes": 1076387,
+      "sha256": "3dc86121ba8975288755dc5ce7f2702ee6a4f1caa8085fccf0408fe9e9c0aa36"
+    },
+    {
+      "path": "outputs/predictions/run2-causal-seed2026-final.npz",
+      "bytes": 1075238,
+      "sha256": "98bb2f8a7c2914147bd10ac41688b935113b9c088169228ad0bf150991459223"
+    },
+    {
+      "path": "outputs/predictions/run2-causal-seed2027-final.npz",
+      "bytes": 1075642,
+      "sha256": "f69155c307f8ff4c6c706fbea0256518464fd0a11a237a79fd6e420517ea8d65"
+    },
+    {
+      "path": "outputs/predictions/run2-causal-seed2028-final.npz",
+      "bytes": 1075958,
+      "sha256": "ba718ae05c9b9041fbd2c08000fc67c31699737fc403fadff25c052dea625f76"
+    },
+    {
+      "path": "outputs/predictions/run82-causal-seed2029-final.npz",
+      "bytes": 1075638,
+      "sha256": "09c72e4819dedb693fae30d7bc2d0ccadc367d89a0186f6ea9bc7ac0c9426e53"
+    },
+    {
+      "path": "outputs/predictions/run82-causal-seed2030-final.npz",
+      "bytes": 1075174,
+      "sha256": "b7d6b547c74a502492cd6d6ce90bc87be1f300033951d685efd22d874360bd1b"
+    },
+    {
+      "path": "outputs/predictions/run82-causal-seed2031-final.npz",
+      "bytes": 1074985,
+      "sha256": "eef6d03dc48c446a2b5bcca111d72615cbf4fc9eeb63040319d6e59525e1f2da"
+    }
+  ],
+  "protected_artifacts": [
+    {
+      "path": "outputs/predictions/run82-six-causal-user-rank-final.npz",
+      "bytes": 493479,
+      "sha256": "3ec4fd06fb02ded236264c49954154e7f3e53c1e632afd6674a0fd82144d1a6d"
+    },
+    {
+      "path": "outputs/submissions/run82-six-causal-user-rank-test.csv",
+      "bytes": 4241676,
+      "rows": 170588,
+      "organizer_check": "passed 2026-08-31",
+      "sha256": "f60d85643f6a8eaa9cc7e2d9d92804ed6c8ef485337abd445cb3a8037686da26"
+    }
+  ],
+  "fallback_artifacts": [
+    {
+      "path": "outputs/predictions/run2-final-six-seed-user-rank.npz",
+      "bytes": 483752,
+      "sha256": "2f4f7e87717a6c4edc3334106a8baa4daf98d41eff99d910aa06cad1c14f91e1"
+    },
+    {
+      "path": "outputs/submissions/run2-final-six-seed-user-rank-test.csv",
+      "bytes": 4221676,
+      "rows": 170588,
+      "organizer_check": "passed again 2026-08-29",
+      "sha256": "dad092c33f405ecd55b81e3fd4f5ed07816d56e622ffa065857d49a4abfc6c79"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "benchmark": "KuaiRand-1K",
+  "candidate": "content-fm-official-seed2028",
+  "status": "local validation candidate with label-blind test-format package; not organizer-scored or submitted",
+  "selected_by": "best of the three predeclared seeds after all three shadow windows passed",
+  "split": {
+    "train": [20220408, 20220421],
+    "validation": [20220422, 20220428]
+  },
+  "score": {
+    "GAUC": 0.6887861492808786,
+    "nDCG@5": 0.6187073567923379,
+    "primary": 0.6537467530366082
+  },
+  "robustness": {
+    "minimum_activity_slice_primary": 0.5912054736788318,
+    "early_dates_primary": 0.6536491250756889,
+    "late_dates_primary": 0.6483674968953696
+  },
+  "training": {
+    "seed": 2028,
+    "best_epoch": 4,
+    "rank": 16,
+    "learning_rate": 0.001,
+    "batch_size": 65536,
+    "feature_set": "content",
+    "elapsed_seconds": 136.7434310913086,
+    "max_rss_bytes": 3237101568
+  },
+  "ignored_artifacts": {
+    "checkpoint": {
+      "path": "outputs/models/run16/content-fm-official-seed2028.pt",
+      "bytes": 398858637,
+      "sha256": "a1e896f17df6d660b96ebc1b54156c52ea251cd825ca8e70e7c2fddc9a781d04"
+    },
+    "validation_predictions": {
+      "path": "outputs/predictions/run16/content-fm-official-seed2028.npz",
+      "bytes": 8460599,
+      "sha256": "f5ba6c6506822157ee65e326a6cd78b7661565d89f584a0eead943951455c8ae"
+    },
+    "test_format_candidate": {
+      "path": "outputs/submissions/run16-content-fm-seed2028-kuairand-1k-test.csv",
+      "bytes": 134388279,
+      "rows": 4132081,
+      "sha256": "b3b8fa2ac501daf31608fae8875f02b14f7812dc976620ac791d16acb2d56764"
+    },
+    "inference_receipt": {
+      "path": "outputs/receipts/run16-kuairand-1k-test-inference.json",
+      "sha256": "da882e6ddb18591b94f55f0cb2e3dfc21c01cf93f03190d81e1a48f2395931e2"
+    }
+  },
+  "inputs": {
+    "source_archive_sha256": "dfaafbb5fd16e9e6d2f9a6adaa4ea25df20a14bc26a90961c136e26c00a7bb2c",
+    "historical_volatile_cache_manifest_sha256": "ed37437c8a84983b88e30af71b2cbdc12a7d58780cd3c78eeeecc557b5784354",
+    "stable_cache_input_manifest": "manifests/kuairand-1k-content-cache-inputs.json",
+    "stable_cache_input_manifest_sha256": "bb3fd721eb6dd48f91d3268428f440e4fcbc10f5fff1005f2b8e07631aa6250d",
+    "ranker_sha256": "f075b95bd99cd91cae6a77e670a8fac3dd5ba2489ada0a079b00993b7e59e620",
+    "evaluator_sha256": "ecfde28392eb14fec4f488083251df50624e1af2b86278b962daecfb42d195de",
+    "inference_script_sha256": "9cbc4d7bc927304a6fce7646e17b3308ad5662b7d31618faaaea57432222d949",
+    "source_basic_sha256": "18cb8b9133635a5e53d4e33b1644137b8673b615cc1aaa500b6d3d09695efae3",
+    "source_log_sha256": "548daf771e54e2b73086cc8e7c6f56787d44421f5026c2100421810e47ae9dd4"
+  },
+  "validation_reconstruction": {
+    "rows": 2524980,
+    "bitwise_equal_to_saved_predictions": true,
+    "maximum_absolute_error": 0.0
+  },
+  "test_packaging": {
+    "split": [20220429, 20220508],
+    "alignment_checked_without_outcome_columns": true,
+    "public_test_labels_accessed": false,
+    "elapsed_seconds": 47.558233976364136,
+    "max_rss_bytes": 1600421888,
+    "schema_basis": "derived from the organizer Pure submission schema and the statement that 1K uses the same task; no 1K-specific checker was published"
+  },
+  "public_test_evaluated": false,
+  "submission_performed": false,
+  "protected_kuairand_pure_candidate_changed": false
+}

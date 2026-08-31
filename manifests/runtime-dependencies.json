@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-08-29T12:06:00+08:00",
+  "python": "3.9.6",
+  "packages": {
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.6.1",
+    "lightgbm": "4.6.0",
+    "torch": "2.7.1"
+  },
+  "native_runtime": {
+    "name": "Homebrew libomp bottle",
+    "version": "23.1.0",
+    "platform": "arm64_tahoe",
+    "metadata_url": "https://formulae.brew.sh/api/formula/libomp.json",
+    "archive_url": "https://ghcr.io/v2/homebrew/core/libomp/blobs/sha256:462a36670e56b7804c607e16c4d1b013bbca2a531b39b612a28d8f1bb0c1a37c",
+    "sha256": "462a36670e56b7804c607e16c4d1b013bbca2a531b39b612a28d8f1bb0c1a37c",
+    "license": "Homebrew formula metadata: MIT; extracted LLVM LICENSE.TXT: Apache-2.0 with LLVM exceptions",
+    "local_path": ".deps/libomp/23.1.0",
+    "note": "Installed locally inside this repository because Homebrew is unavailable; no system directories were modified."
+  }
+}

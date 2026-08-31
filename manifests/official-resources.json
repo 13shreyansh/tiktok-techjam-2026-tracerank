@@ -1,0 +1,135 @@
+{
+  "captured_at": "2026-08-26T19:56:11+08:00",
+  "launch_rechecked_at": "2026-08-28T14:05:20+08:00",
+  "faq_rechecked_at": "2026-08-31T19:48:00+08:00",
+  "challenge_statement": {
+    "title": "[Early Bird Access] TikTok TechJam 2026 Tracks & Problem Statements",
+    "url": "https://bytedance.larkoffice.com/wiki/DNtSwxgeciCS2nkiUefc5qqtnkf#DM16dtAj1oEaJex5qSlm2DAiyag",
+    "public_title": "TikTok TechJam 2026 Information Document",
+    "public_url": "https://bytedance.larkoffice.com/wiki/GdYFwzWNLiREsSkuIjZcDznInWc#Awozdl0mGo1DnXxwFuemYSilyzP",
+    "track": "2. Autonomous Machine Learning Research Agent for Recommender Systems",
+    "statement_reported_last_updated": "2026-08-27T17:55:00+08:00",
+    "public_document_reported_last_updated": "2026-08-28",
+    "launch_metric_contract": {
+      "label": "long_view",
+      "metrics": [
+        "GAUC",
+        "nDCG@5"
+      ],
+      "primary": "mean(GAUC, nDCG@5)",
+      "scope": "rank each user's logged impressions"
+    },
+    "resource_limits": {
+      "iterations_per_benchmark_run": 50,
+      "wall_clock_hours_per_run": 6,
+      "convergence_rule": "team-predeclared epsilon, consecutive-window length, and optional minimum-iteration floor",
+      "statement_example_epsilon": 0.002,
+      "statement_example_iterations": 3,
+      "llm_tokens_capped": false,
+      "gpu_hours_capped": false
+    },
+    "final_test_contract": "The supplied 2022-04-29 through 2022-05-08 test rows are the final judged rows; outcomes may not be used for development.",
+    "pure_training_contract": "Only log_standard_4_08_to_4_21_pure.csv may train the Pure model; the random log is EDA-only and 1K/27K are separate bonus benchmarks.",
+    "remaining_contradiction": "At the 2026-08-31 19:48 SGT live audit, the Limits-table first bullet still visibly said click with NDCG@10 / Recall@50. The FAQ, benchmark table, deliverables, judging formula, published scores, and starter say long_view with GAUC / nDCG@5."
+  },
+  "starter_archive": {
+    "name": "kuairand-starter-kit.zip",
+    "source": "Lark attachment under Track 2 Starter Kit",
+    "source_page": "https://bytedance.larkoffice.com/wiki/DNtSwxgeciCS2nkiUefc5qqtnkf#R6QcdQ0G9oeZmQxHuEZm8LSxy8e",
+    "version": null,
+    "bytes": 15848,
+    "sha256": "07237e62cc1a9cd8278556dab995dd5388516f10772724f582ef8320ac68b10b",
+    "archive_entry_timestamp": "2026-08-26T18:00:00+08:00",
+    "license": null,
+    "license_note": "No LICENSE, COPYING, or NOTICE file was present in the archive.",
+    "public_launch_recheck": {
+      "checked_at": "2026-08-28T14:05:20+08:00",
+      "displayed_size": "15.48 KB",
+      "downloaded_bytes": 15848,
+      "downloaded_sha256": "07237e62cc1a9cd8278556dab995dd5388516f10772724f582ef8320ac68b10b",
+      "comparison_to_preserved_archive": "byte-for-byte identical"
+    }
+  },
+  "public_portals": {
+    "devpost_resources": "https://tiktoktechjam2026.devpost.com/resources",
+    "devpost_updates": "https://tiktoktechjam2026.devpost.com/updates",
+    "devpost_rules": "https://tiktoktechjam2026.devpost.com/rules",
+    "telegram": "https://t.me/TikTokTechJam2026",
+    "checked_at": "2026-08-28T14:05:20+08:00",
+    "track_2_artifact_change": false,
+    "note": "Devpost Updates contained no announcement. Devpost Resources linked the public Information Document. Telegram announced the public statement and workshop schedule but exposed no additional Track 2 starter or scoring artifact."
+  },
+  "kuairand_pure": {
+    "title": "KuaiRand: An Unbiased Sequential Recommendation Dataset with Randomly Exposed Videos",
+    "record_url": "https://zenodo.org/records/10439422",
+    "api_url": "https://zenodo.org/api/records/10439422",
+    "download_url": "https://zenodo.org/records/10439422/files/KuaiRand-Pure.tar.gz",
+    "record_id": 10439422,
+    "doi": "10.1145/3511808.3557624",
+    "record_updated": "2026-01-06T04:09:48.542010+00:00",
+    "version": null,
+    "bytes": 47432272,
+    "official_md5": "0820331067a3784d9691136f772b35a7",
+    "local_sha256": "c814bf6f3624c0cfae83c57de3df26b2ed206e5c57bab4c4dcbfabbabe20cbf0",
+    "zenodo_license_id": "cc-by-4.0",
+    "embedded_license": "CC-BY-SA-4.0",
+    "embedded_license_sha256": "187442db4df3afd21f2f0525739fd4beac28a62daaba3ee8d3533f60e7c33ec7",
+    "license_note": "The Zenodo API metadata and embedded archive licence disagree; both are recorded without choosing one."
+  },
+  "kuairand_1k": {
+    "title": "KuaiRand-1K bonus benchmark",
+    "official_project_url": "https://kuairand.com/",
+    "record_url": "https://zenodo.org/records/10439422",
+    "download_url": "https://zenodo.org/records/10439422/files/KuaiRand-1K.tar.gz",
+    "record_id": 10439422,
+    "doi": "10.1145/3511808.3557624",
+    "audited_at": "2026-08-29T17:01:10+08:00",
+    "bytes": 1135436720,
+    "official_md5": "6b0b9c8222d67fcd4c676218edca3f1f",
+    "local_sha256": "dfaafbb5fd16e9e6d2f9a6adaa4ea25df20a14bc26a90961c136e26c00a7bb2c",
+    "http_last_modified": "2025-11-11T06:52:28+00:00",
+    "published_scale": {
+      "users": 1000,
+      "items": 4369953,
+      "interactions": 11713045,
+      "logs": "829MB",
+      "features": "3.5GB",
+      "extracted_total": "4.3GB"
+    },
+    "observed_archive": {
+      "video_feature_rows": 4371868,
+      "maximum_reindexed_video_id": 4371899,
+      "missing_video_metadata_ids": 32,
+      "interaction_rows": 11713045,
+      "extracted_total": "4.3GB"
+    },
+    "zenodo_license_id": "cc-by-4.0",
+    "embedded_license": "CC-BY-SA-4.0",
+    "embedded_license_sha256": "187442db4df3afd21f2f0525739fd4beac28a62daaba3ee8d3533f60e7c33ec7",
+    "license_note": "The Zenodo API metadata and embedded archive licence disagree; both are recorded without choosing one. The verified archive's video-feature row count also differs from the project-page item count, so published and observed scales are preserved separately."
+  },
+  "kuairand_27k": {
+    "title": "KuaiRand-27K bonus benchmark",
+    "official_project_url": "https://kuairand.com/",
+    "record_url": "https://zenodo.org/records/10439422",
+    "download_url": "https://zenodo.org/records/10439422/files/KuaiRand-27K.tar.gz",
+    "record_id": 10439422,
+    "doi": "10.1145/3511808.3557624",
+    "audited_at": "2026-08-29T20:02:00+08:00",
+    "bytes": 9892191178,
+    "official_md5": "3e3c799a24e2d23a4d2c757fbf9adf59",
+    "local_sha256": null,
+    "http_last_modified": "2025-11-11T06:52:14+00:00",
+    "published_scale": {
+      "users": 27285,
+      "items": 32038725,
+      "interactions": 322278385,
+      "logs": "23GB",
+      "features": "23GB",
+      "extracted_total": "46GB"
+    },
+    "zenodo_license_id": "cc-by-4.0",
+    "embedded_license": null,
+    "license_note": "The source metadata is recorded before acquisition. The embedded archive licence and local SHA-256 remain unverified until the checksum-gated download and safe extraction succeed."
+  }
+}

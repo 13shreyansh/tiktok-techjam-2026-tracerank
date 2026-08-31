@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-31T17:13:00+08:00",
+  "commit_policy": "Large models, predictions, and candidate CSVs are ignored and not committed.",
+  "submission_status": "Local candidate only; no upload or submission performed.",
+  "validation": {
+    "GAUC": 0.6725210738207108,
+    "nDCG@5": 0.5382279661784312,
+    "primary": 0.605374519999571,
+    "published_organizer_baseline_primary": 0.6016,
+    "delta_over_published_baseline": 0.003774519999571
+  },
+  "label_boundary": {
+    "official_test_outcomes_loaded": false,
+    "official_test_rows_feature_only": true,
+    "test_outcomes_scored": false
+  },
+  "artifacts": [
+    {"path": "outputs/models/run84-clean-causal-seed2026.pt", "bytes": 3580254, "sha256": "c253f560c3eb2fb30eeb72fceaffa3d70e5ac55c356de9b36fef0fd7b0dafb61"},
+    {"path": "outputs/models/run84-clean-causal-seed2027.pt", "bytes": 3580254, "sha256": "7e9dd262d60670080c09aecbe7332a195ba74ad5fe3a40afeadbb37052a8267f"},
+    {"path": "outputs/models/run84-clean-causal-seed2028.pt", "bytes": 3580254, "sha256": "97aeab0c4307ec4d85e7c6dbf73cd487ecab594fc540ac4b793cd37e1d856ff8"},
+    {"path": "outputs/models/run84-clean-causal-seed2029.pt", "bytes": 3580254, "sha256": "3fde0bbd4d9c2292f050abb1d46b7c46120b3c375836e367238c73200b2243ef"},
+    {"path": "outputs/models/run84-clean-causal-seed2030.pt", "bytes": 3580254, "sha256": "7371bceed473ba6ab6350696720e5b802c842ff17130608ecba059a16abff93b"},
+    {"path": "outputs/models/run84-clean-causal-seed2031.pt", "bytes": 3580254, "sha256": "5e7bfd082824b069d9ce831ac01107181edd41c7c5a32e131f37cfb8ef0235af"},
+    {"path": "outputs/predictions/run84-clean-causal-seed2026-final.npz", "bytes": 1075205, "sha256": "10bcce5b7334d08cd7110e6129fe085ac04e11806ca857574ee2f06bdfcf6d4d"},
+    {"path": "outputs/predictions/run84-clean-causal-seed2027-final.npz", "bytes": 1075660, "sha256": "962c89d8ca9eab5361d6a3df2f97e542742869d15218077fcf851a6049a83e06"},
+    {"path": "outputs/predictions/run84-clean-causal-seed2028-final.npz", "bytes": 1075820, "sha256": "27e563437069a539516f5dd11a238ee75c12c67fcb296d48c31c5234178c85f5"},
+    {"path": "outputs/predictions/run84-clean-causal-seed2029-final.npz", "bytes": 1075800, "sha256": "a822b72d17fd80fe75e3a350933a81fabefbd901105380dac09edaa983ab199b"},
+    {"path": "outputs/predictions/run84-clean-causal-seed2030-final.npz", "bytes": 1075208, "sha256": "edf5c8594d3bfa9bf487e08c45c6516ddc2d33f804e19b07f4b7bc415dd38293"},
+    {"path": "outputs/predictions/run84-clean-causal-seed2031-final.npz", "bytes": 1074836, "sha256": "c424b6bdc019f9fd5aba9ac94793cbb4849fbaa4612b41468077929efc362fa9"},
+    {"path": "outputs/predictions/run84-clean-six-causal-user-rank-final.npz", "bytes": 493222, "sha256": "eb645924bcefc857283cbc5e819dc39b3caa041eeb12412023ba810db7764480"},
+    {"path": "outputs/submissions/run84-clean-six-causal-user-rank-test.csv", "bytes": 4646704, "rows": 170588, "score_precision": "9 significant digits", "sha256": "35f5fcbd718c7cdc0be10db031dd12e06909b16fd3aa2a53b070b8f006118539"}
+  ]
+}
