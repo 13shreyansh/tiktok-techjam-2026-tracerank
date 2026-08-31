@@ -1,0 +1,9 @@
+{
+  "benchmark": "KuaiRand-1K",
+  "iterations": 1,
+  "public_test_locked": true,
+  "search_closed": true,
+  "closed_reason": "The fixed field-aware candidate substantially regressed the paired parent on validation, forward validation, and every robustness slice. The family was closed without micro-tuning.",
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-29T20:23:00+08:00"
+}
