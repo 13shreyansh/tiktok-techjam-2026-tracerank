@@ -1,0 +1,9 @@
+{
+  "completed_at": "2026-08-29T16:04:00+08:00",
+  "decision": "reject",
+  "iterations": 1,
+  "last_review_iteration": 1,
+  "public_test_locked": true,
+  "reason": "The LambdaLoss epoch regressed its own pointwise checkpoint and the restored final delta was below the promotion gate.",
+  "started_at": "2026-08-29T15:55:00+08:00"
+}
