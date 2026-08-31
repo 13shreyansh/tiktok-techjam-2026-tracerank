@@ -1,0 +1,9 @@
+{
+  "completed_at": "2026-08-29T16:37:00+08:00",
+  "decision": "reject",
+  "iterations": 8,
+  "last_review_iteration": 8,
+  "public_test_locked": true,
+  "reason": "Median rank failed the paired validation and forward gain threshold in both early and middle windows, making the required two-of-three success impossible.",
+  "started_at": "2026-08-29T16:26:00+08:00"
+}
