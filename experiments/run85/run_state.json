@@ -1,0 +1,16 @@
+{
+  "benchmark": "KuaiRand-Pure official validation",
+  "convergence": {
+    "epsilon": 5e-05,
+    "minimum_iteration_floor": 4,
+    "window": 3
+  },
+  "closed_at": "2026-08-31T17:44:00+08:00",
+  "decision": "closed_first_shadow_gate_below_materiality_threshold",
+  "family": "dual-positive-strict-skip-history",
+  "iterations": 1,
+  "label_boundary_required": true,
+  "public_test_locked": true,
+  "search_closed": true,
+  "started_at": "2026-08-31T17:30:00+08:00"
+}
