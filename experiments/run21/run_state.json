@@ -1,0 +1,9 @@
+{
+  "benchmark": "KuaiRand-1K",
+  "iterations": 1,
+  "public_test_locked": true,
+  "search_closed": true,
+  "closed_reason": "Explicit crosses improved nearby validation but substantially regressed forward validation and the high-activity slice. The memorizing family was closed without tuning.",
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-29T20:45:00+08:00"
+}
