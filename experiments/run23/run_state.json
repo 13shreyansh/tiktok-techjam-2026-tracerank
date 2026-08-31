@@ -1,0 +1,9 @@
+{
+  "benchmark": "KuaiRand-1K",
+  "iterations": 1,
+  "public_test_locked": true,
+  "search_closed": true,
+  "closed_reason": "The fixed shrinkage candidate remained nearly identical to Run 22 and still failed the forward transfer guard. The regularized-cross branch was closed without a coefficient sweep.",
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-29T20:52:00+08:00"
+}
