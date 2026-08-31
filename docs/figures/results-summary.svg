@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">TraceRank measured validation results</title>
+  <desc id="desc">KuaiRand-Pure improved from organizer baseline 0.601600 to a clean validation score of 0.605375, while the separate KuaiRand-1K local base improved from 0.644227 to 0.653747. Neither is a final-test result.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="1" stop-color="#131c34"/>
+    </linearGradient>
+    <linearGradient id="blueBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="greenBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#059669"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#020617" flood-opacity="0.45"/>
+    </filter>
+    <style>
+      .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .white { fill: #f8fafc; }
+      .muted { fill: #a9b7cf; }
+      .blue { fill: #93c5fd; }
+      .green { fill: #6ee7b7; }
+      .amber { fill: #fcd34d; }
+      .small { font-size: 21px; }
+      .body { font-size: 25px; }
+      .label { font-size: 20px; font-weight: 700; letter-spacing: 1.5px; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1460" cy="60" r="250" fill="#2563eb" opacity="0.07"/>
+  <g class="sans">
+    <text x="80" y="78" class="white" font-size="48" font-weight="800">Measured results</text>
+    <text x="80" y="116" class="muted" font-size="25">Two benchmarks, two separate local validation claims</text>
+    <rect x="1122" y="52" width="398" height="52" rx="26" fill="#33280f" stroke="#f59e0b"/>
+    <text x="1321" y="86" text-anchor="middle" class="amber label">NOT FINAL-TEST SCORES</text>
+
+    <g filter="url(#shadow)">
+      <rect x="80" y="165" width="700" height="440" rx="30" fill="#121d33" stroke="#334155" stroke-width="2"/>
+      <text x="120" y="212" class="blue label">REQUIRED • KUAIRAND-PURE</text>
+      <text x="120" y="255" class="white" font-size="31" font-weight="750">Six-member causal rank consensus</text>
+
+      <text x="120" y="326" class="muted body">Published organizer FM</text>
+      <rect x="120" y="348" width="470" height="48" rx="12" fill="#26334a"/>
+      <rect x="120" y="348" width="335" height="48" rx="12" fill="#475569"/>
+      <text x="610" y="381" class="white body" font-weight="700">0.601600</text>
+
+      <text x="120" y="445" class="muted body">Clean TraceRank candidate</text>
+      <rect x="120" y="467" width="470" height="48" rx="12" fill="#26334a"/>
+      <rect x="120" y="467" width="399" height="48" rx="12" fill="url(#blueBar)"/>
+      <text x="610" y="500" class="blue body" font-weight="800">0.605375</text>
+
+      <text x="120" y="557" class="green" font-size="32" font-weight="800">+0.003774520</text>
+      <text x="740" y="557" text-anchor="end" class="muted small">absolute primary gain</text>
+      <text x="120" y="590" class="muted small">GAUC 0.672521 • nDCG@5 0.538228</text>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="820" y="165" width="700" height="440" rx="30" fill="#10262c" stroke="#1f6b5c" stroke-width="2"/>
+      <text x="860" y="212" class="green label">BONUS • KUAIRAND-1K</text>
+      <text x="860" y="255" class="white" font-size="31" font-weight="750">Content sparse FM, seed 2028</text>
+
+      <text x="860" y="326" class="muted body">Our fixed base-FM ensemble</text>
+      <rect x="860" y="348" width="470" height="48" rx="12" fill="#26334a"/>
+      <rect x="860" y="348" width="252" height="48" rx="12" fill="#475569"/>
+      <text x="1350" y="381" class="white body" font-weight="700">0.644227</text>
+
+      <text x="860" y="445" class="muted body">Selected content FM</text>
+      <rect x="860" y="467" width="470" height="48" rx="12" fill="#26334a"/>
+      <rect x="860" y="467" width="401" height="48" rx="12" fill="url(#greenBar)"/>
+      <text x="1350" y="500" class="green body" font-weight="800">0.653747</text>
+
+      <text x="860" y="557" class="green" font-size="32" font-weight="800">+0.009519328</text>
+      <text x="1480" y="557" text-anchor="end" class="muted small">vs our local base ensemble</text>
+      <text x="860" y="590" class="muted small">GAUC 0.688786 • nDCG@5 0.618707</text>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="80" y="650" width="1440" height="150" rx="28" fill="#111b2f" stroke="#334155" stroke-width="2"/>
+      <text x="120" y="697" class="blue label">PROMOTION EVIDENCE</text>
+
+      <g>
+        <circle cx="150" cy="753" r="20" fill="#10b981"/>
+        <path d="M140 753 l7 7 14 -17" fill="none" stroke="#ecfdf5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="185" y="762" class="white body" font-weight="700">3 fixed seeds</text>
+
+        <circle cx="475" cy="753" r="20" fill="#10b981"/>
+        <path d="M465 753 l7 7 14 -17" fill="none" stroke="#ecfdf5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="510" y="762" class="white body" font-weight="700">3 forward windows</text>
+
+        <circle cx="840" cy="753" r="20" fill="#10b981"/>
+        <path d="M830 753 l7 7 14 -17" fill="none" stroke="#ecfdf5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="875" y="762" class="white body" font-weight="700">activity + date slices</text>
+
+        <circle cx="1230" cy="753" r="20" fill="#10b981"/>
+        <path d="M1220 753 l7 7 14 -17" fill="none" stroke="#ecfdf5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="1265" y="762" class="white body" font-weight="700">exact reconstruction</text>
+      </g>
+    </g>
+
+    <text x="800" y="855" text-anchor="middle" class="muted small">Candidates remain unsubmitted • final-test outcomes and scores remain unread</text>
+  </g>
+</svg>
