@@ -1,0 +1,15 @@
+{
+  "benchmark": "KuaiRand-27K full-training deterministic development sample",
+  "early_gate_passed": true,
+  "iterations": 7,
+  "late_full_win": false,
+  "middle_gate_passed": true,
+  "public_test_locked": true,
+  "official_gate_passed": true,
+  "promoted": true,
+  "search_closed": true,
+  "shadow_gate_passed": true,
+  "started_at": "2026-08-31T04:14:41.383105+08:00",
+  "stopped_reason": "fixed rank-32 hypothesis completed and promoted after three-seed stability plus consensus; campaign continues in a new bounded run",
+  "timestamp_correction": "initial state was 18.616895 seconds after the observed first command start"
+}
