@@ -1,0 +1,9 @@
+{
+  "benchmark": "KuaiRand-Pure official validation",
+  "closed_at": "2026-08-31T16:35:00+08:00",
+  "decision": "selected_frozen_run82_all_causal_after_two_of_three_windows",
+  "iterations": 24,
+  "public_test_locked": true,
+  "search_closed": true,
+  "started_at": "2026-08-31T16:14:49+08:00"
+}
