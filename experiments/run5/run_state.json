@@ -1,0 +1,8 @@
+{
+  "iterations": 4,
+  "last_review_iteration": 4,
+  "public_test_locked": true,
+  "started_at": "2026-08-29T14:35:00+08:00",
+  "status": "stopped_convergence",
+  "stopped_at": "2026-08-29T14:48:00+08:00"
+}
