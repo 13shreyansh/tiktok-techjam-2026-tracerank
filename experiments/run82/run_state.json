@@ -1,0 +1,10 @@
+{
+  "benchmark": "KuaiRand-Pure official validation",
+  "closed_at": "2026-08-31T16:06:59+08:00",
+  "decision": "rejected_below_precommitted_primary_gain_gate",
+  "iterations": 5,
+  "public_test_locked": true,
+  "search_closed": true,
+  "slice_gate_passed": true,
+  "started_at": "2026-08-31T15:04:43+08:00"
+}
