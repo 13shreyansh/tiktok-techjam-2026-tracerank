@@ -1,0 +1,9 @@
+{
+  "benchmark": "KuaiRand-27K full-training deterministic development sample",
+  "closed_reason": "The single frozen seed-2029 confirmation passed; campaign-level three-seed promotion gates all passed.",
+  "iterations": 1,
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": true,
+  "started_at": "2026-08-30T13:50:41+08:00"
+}
