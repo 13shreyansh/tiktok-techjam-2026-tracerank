@@ -1,0 +1,10 @@
+{
+  "benchmark": "KuaiRand-27K quarter-training deterministic development sample",
+  "closed_reason": "Three unchanged quarter-density official-development seeds improved their paired Run 30 parents and converged within the fixed 0.002 epsilon; Run 32 is closed with seed 2029 protected.",
+  "converged_at_iteration": 6,
+  "iterations": 6,
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": true,
+  "started_at": "2026-08-30T01:03:00+08:00"
+}
