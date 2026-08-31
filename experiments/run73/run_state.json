@@ -1,0 +1,9 @@
+{
+  "benchmark": "KuaiRand-27K full-training deterministic development sample",
+  "iterations": 1,
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-31T11:40:00+08:00",
+  "stopped_reason": "exact-parent recurring time context regressed validation and exceeded the high-activity slice limit"
+}
