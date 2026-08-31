@@ -1,0 +1,16 @@
+{
+  "benchmark": "KuaiRand-Pure official validation",
+  "convergence": {
+    "epsilon": 5e-05,
+    "minimum_iteration_floor": 4,
+    "window": 3
+  },
+  "closed_at": "2026-08-31T20:34:54+08:00",
+  "decision": "closed_by_user_submission_freeze_before_any_consensus",
+  "family": "causal-consensus-seed-saturation",
+  "iterations": 8,
+  "label_boundary_required": true,
+  "public_test_locked": true,
+  "search_closed": true,
+  "started_at": "2026-08-31T20:21:38+08:00"
+}
