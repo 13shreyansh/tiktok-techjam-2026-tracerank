@@ -1,0 +1,9 @@
+{
+  "benchmark": "KuaiRand-1K",
+  "iterations": 2,
+  "public_test_locked": true,
+  "search_closed": true,
+  "closed_reason": "After one recorded engineering failure, the repaired fixed sequence-profile candidate regressed paired validation, forward validation, and the minimum robustness slice. The family was closed without tuning.",
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-29T20:40:00+08:00"
+}
