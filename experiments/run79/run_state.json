@@ -1,0 +1,10 @@
+{
+  "benchmark": "KuaiRand-27K full-training deterministic development sample",
+  "iterations": 2,
+  "public_test_locked": true,
+  "search_closed": true,
+  "shadow_gate_passed": false,
+  "started_at": "2026-08-31T12:53:26+08:00",
+  "stopped_at": "2026-08-31T14:47:02+08:00",
+  "stop_reason": "The cross-fitted residual improved the clean meta day but missed protected validation materiality, regressed forward primary, and violated the high-activity slice guard."
+}
